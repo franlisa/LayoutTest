@@ -4,10 +4,10 @@ Layout相关的一些要点
 每个layout都是 viewGroup的子类，每个layout都有自己nested的LayoutParams
 Linearlayout:
 ------
-常用的属性有 gravity 后缀:gravity都是表示对齐方式的属性（alignment）其中gravity是表示该view中的内容的对齐方式，layout_gravity表示该view在parent中的对齐方式
-android:gravity - Controls the alignment of the view content (akin to text-align in CSS)
-android:layout_gravity - Controls the alignment of the view within it's parent container (akin to float in CSS)
-android:layout_weight - Specifies how much of the extra space in the layout to be allocated to a view
+常用的属性有 gravity 后缀:gravity都是表示对齐方式的属性（alignment）其中gravity是表示该view中的内容的对齐方式，layout_gravity表示该view在parent中的对齐方式  
+android:gravity - Controls the alignment of the view content (akin to text-align in CSS)  
+android:layout_gravity - Controls the alignment of the view within it's parent container (akin to float in CSS)  
+android:layout_weight - Specifies how much of the extra space in the layout to be allocated to a view  
 RelativeLayout
 ------
 RelativeLayout positions views based on a number of directional attributes:
